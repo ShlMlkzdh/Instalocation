@@ -55,13 +55,39 @@
 			isa = PBXGroup;
 			children = (
 				5B3A4763203A0EAD004B358C /* AppDelegate.swift */,
-				5B3A4765203A0EAD004B358C /* ViewController.swift */,
-				5B3A4767203A0EAD004B358C /* Main.storyboard */,
+				5B3A4782203A1ABE004B358C /* Model */,
+				5B3A4781203A1A9F004B358C /* View */,
+				5B3A4780203A1A8D004B358C /* Controller */,
 				5B3A476A203A0EAD004B358C /* Assets.xcassets */,
-				5B3A476C203A0EAD004B358C /* LaunchScreen.storyboard */,
 				5B3A476F203A0EAD004B358C /* Info.plist */,
 			);
 			path = Instalocation;
+			sourceTree = "<group>";
+		};
+		5B3A4780203A1A8D004B358C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B3A4765203A0EAD004B358C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5B3A4781203A1A9F004B358C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B3A4767203A0EAD004B358C /* Main.storyboard */,
+				5B3A476C203A0EAD004B358C /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		5B3A4782203A1ABE004B358C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = "New Group1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
