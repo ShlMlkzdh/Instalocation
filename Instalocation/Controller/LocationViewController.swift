@@ -13,4 +13,8 @@ class LocationViewController: UIViewController, CLLocationManagerDelegate {
     
     private let locationManager: CLLocationManager = CLLocationManager()
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+
 }
