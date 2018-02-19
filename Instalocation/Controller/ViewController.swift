@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import CoreLocation
 
-class ViewController: UIViewController {
+class ViewController: LocationViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
